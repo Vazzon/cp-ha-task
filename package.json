@@ -5,10 +5,12 @@
   "dependencies": {},
   "devDependencies": {
     "cypress": "^6.8.0",
-    "cypress-cucumber-preprocessor": "^4.0.3"
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-xpath": "^1.6.2"
   },
   "scripts": {
-    "cypress:open": "cy open"
+    "cypress:test:all": "cypress run --spec \"/**/*.features\"",
+    "cypress:open": "cypress open"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
@@ -17,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/Vazzon/cp-ha-task.git"
   },
-  "author": "",
+  "author": "Sebastian Zajec",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vazzon/cp-ha-task/issues"
