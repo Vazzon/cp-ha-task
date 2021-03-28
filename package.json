@@ -1,0 +1,26 @@
+{
+  "name": "cp-ha-task",
+  "version": "1.0.0",
+  "description": "Code&Pepper Home Assignment Task",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  },
+  "scripts": {
+    "cypress:open": "cy open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vazzon/cp-ha-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vazzon/cp-ha-task/issues"
+  },
+  "homepage": "https://github.com/Vazzon/cp-ha-task#readme"
+}
