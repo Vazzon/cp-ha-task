@@ -1,7 +1,7 @@
 {
     "baseUrl": "https://pluto-customer-web-app-staging.herokuapp.com/tailored-annual-or-single",
-    "viewportWidth": 1024,
-    "viewportHeight": 768,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
     "experimentalFetchPolyfill": true,
     "testFiles": "**/*.{feature,features,spec.js}",
     "defaultCommandTimeout": 60000,
